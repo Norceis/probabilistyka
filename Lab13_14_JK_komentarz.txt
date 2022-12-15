@@ -1,6 +1,5 @@
 13. Sieć Bayesowska jest przydatna w przypadku gdy mamy do dyspozycji małą liczbę wydarzeń do połączenia małą liczbą związków przyczynowo-skutkowych (1A).
-W przypadku takiej sieci pożądane prawdopodobieństwa obliczane są ze stosunkowo dużą dokładnością. W przypadku sieci 1B jedno wydarzenie jest skutkiem wielu różnych przyczyn,
-ale nie jest to sieć o dużej głębokości, przez co nawet bez użycia sieci bayesowskiej możnaby wnioskować z dużym prawdopodobieństwem sukcesu prawdopodobieństwo
+W przypadku sieci 1B jedno wydarzenie jest skutkiem wielu różnych przyczyn, ale nie jest to sieć o dużej głębokości, przez co nawet bez użycia sieci bayesowskiej możnaby wnioskować z dużym prawdopodobieństwem sukcesu prawdopodobieństwo
 rozwijania się rośliny. Dodatkowo wydarzenia takie jak natężenie pleśni, wody, słońca, ciepła, szkodników nie powinny być opisywane jako dyskretne, tylko jako wartości ciągłe,
 np. ilość pleśni z zakresu 0-1, czy też ilość wody z zakresu 0-1, procentowo zależne od stanu faktycznego. Sieć 1C jest średniej głębokości, ale występuje tam mało zależności
 przyczynowo-skutkowych (dwa wydarzenia mają wpływ na wydarzenie pośrednie, a tylko to jedno wydarzenie pośrednie ma wpływ na wydarzenia końcowe), co sprawia, podobnie jak w 
